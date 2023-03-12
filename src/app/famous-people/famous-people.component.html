@@ -1,0 +1,30 @@
+<h2>Famous People</h2>
+<body>
+    <div class="row">
+        <div class="column">
+            <h2>First name</h2>
+            <div *ngFor="let dev of displayDev.complete">
+                {{dev.firstName}}
+            </div>
+            
+        </div>
+        <div class="column">
+            <h2>Last Name</h2>
+            <div *ngFor="let dev of displayDev.complete">
+                {{dev.lastName}}
+            </div>
+        </div>
+        <div class="column">
+            <h2>Innovation</h2>
+            <div *ngFor="let dev of displayDev.complete">
+                {{dev.innovation}}
+            </div>
+        </div>
+        <div class="column">
+            <h2>Year</h2>
+            <div *ngFor="let dev of displayDev.complete">
+                {{dev.year}}
+            </div>
+        </div>
+    </div>
+</body>
