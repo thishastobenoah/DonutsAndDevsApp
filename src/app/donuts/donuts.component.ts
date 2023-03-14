@@ -17,6 +17,6 @@ export class DonutsComponent {
         this.displayDonut = result;
         console.log(result);
       }
-    )
+    ) 
 }
 }
